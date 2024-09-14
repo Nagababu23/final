@@ -1,0 +1,27 @@
+.post {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon {
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Light gray background for the icon */
+    color: #333; /* Dark color for the icon */
+  }  
+  
+  .user-email {
+    font-weight: bold;
+  }
+  
+  .post-content {
+    margin-top: 15px;
+  }
+  

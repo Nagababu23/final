@@ -1,0 +1,127 @@
+.homebg {
+  background-color: rgb(205, 223, 217);
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 60px; /* Space for the fixed navbar */
+  box-sizing: border-box;
+}
+
+.feed-container {
+  margin: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin-left: 260px;
+  box-sizing: border-box;
+}
+
+.post-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.post-user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-user-info h4 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post-user-info p {
+  margin: 0;
+  color: #555;
+  font-size: 0.9em;
+}
+
+.follow-button {
+  background-color: rgb(59, 137, 239);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto; /* Push the follow button to the far right */
+}
+
+.follow-button:hover {
+  background-color: rgb(40, 120, 220);
+}
+
+.post-content {
+  margin-bottom: 15px;
+  font-size: 1em;
+  color: #333;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.post-footer {
+  font-size: 0.8em;
+  color: #777;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 70px;
+}
+
+.content-area {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.feed-container {
+  flex: 3;
+  margin-right: 20px;
+  max-width: 1000px;
+}
+
+.profile-card {
+  flex: 1;
+  max-width: 300px;
+  position: fixed;
+  right: 20px;
+  top: 100px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.save-button {
+  border: none;
+  background-color: rgb(59, 137, 239);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: rgb(40, 120, 220);
+}
